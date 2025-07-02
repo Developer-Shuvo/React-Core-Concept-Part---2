@@ -3,6 +3,7 @@ import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
 import Counter from "./Counter";
+import Post from "./Post";
 
 function App() {
   // Normal function to handle button click
@@ -43,6 +44,19 @@ function App() {
       </div>
 
       <Counter></Counter>
+      <div>
+        <h2 style={{ textDecoration: "underline", color:"orange" }}>React Core Concept Recap</h2>
+        <ol>
+          <li>Components</li>
+          <li>jsx</li>
+          <li>Porps</li>
+          <li>EventHandler</li>
+          <li>State Management</li>
+          <li>Load Data/ Use Effect</li>
+        </ol>
+        <hr />
+      </div>
+      <Post></Post>
     </>
   );
 }
